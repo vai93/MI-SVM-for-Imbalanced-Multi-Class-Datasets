@@ -1,7 +1,9 @@
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import *
 import time
-from dataPreProcessing import *     
+# NOTE:
+# Users must preprocess their dataset before using this code.
+# Data should be in numeric format and ready for training.
 from MISVM import *
 for dataset in range(1,12): 
     X= eval("data.X"+str(dataset))

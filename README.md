@@ -40,7 +40,7 @@ Install dependencies:
 pip install -r requirements.txt
 
 
-**How to Run**
+##How to Run 
 Prepare your dataset (see preprocessing requirements below)
 Update dataset loading in main.py
 Run the script:
